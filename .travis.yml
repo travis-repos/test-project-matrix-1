@@ -1,4 +1,4 @@
-script: "rake test"
+script: "ruby -e 'p RUBY_VERSION'; true && rake test"
 env:
   - 'FOO=bar'
   - 'FOO=baz'
