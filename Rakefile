@@ -7,6 +7,7 @@ task :test do
     putc '.'
     $stdout.flush
   end
+  foo!
   exit 0
 end
 
