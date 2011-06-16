@@ -1,7 +1,4 @@
 script: 'ruby -e "p RUBY_VERSION"; true && rake test'
-env:
-  - 'FOO=bar'
-  - 'FOO=baz'
 rvm:
   - 1.8.7
   - 1.9.2
