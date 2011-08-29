@@ -2,6 +2,10 @@ script: 'ruby -e "p RUBY_VERSION"; true && rake test'
 rvm:
   - 1.8.7
   - 1.9.2
+  - rbx
+matrix:
+  exclude:
+    - rvm: rbx
 branches:
   only: master
 notifications:
