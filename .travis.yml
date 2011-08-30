@@ -10,4 +10,5 @@ branches:
   only: master
 notifications:
   # irc: irc.freenode.net#travis
-  email: false
+  # email: false
+  recipients: svenfuchs@artweb-design.de
