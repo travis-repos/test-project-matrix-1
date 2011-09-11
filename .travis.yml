@@ -13,6 +13,5 @@ notifications:
   # email: false
   # recipients: svenfuchs@artweb-design.de
   email:
-    on_success: all
-    recipients: 
-    - svenfuchs@artweb-design.de
+    on_success: always
+    recipients: svenfuchs@artweb-design.de
