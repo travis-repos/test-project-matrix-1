@@ -9,8 +9,7 @@ matrix:
 branches:
   only: master
 notifications:
-  # irc: irc.freenode.net#travis
-  # email: false
+  irc: irc.freenode.net#travis
   # recipients: svenfuchs@artweb-design.de
   email:
     on_success: always
