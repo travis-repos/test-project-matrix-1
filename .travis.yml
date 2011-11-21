@@ -11,7 +11,7 @@ branches:
 notifications:
   # irc: irc.freenode.net#travis
   # recipients: svenfuchs@artweb-design.de
-  email:
-    on_success: always
-    recipients:
-    - svenfuchs@artweb-design.de
+  email: false
+    # on_success: always
+    # recipients:
+    # - svenfuchs@artweb-design.de
