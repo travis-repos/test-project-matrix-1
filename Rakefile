@@ -7,8 +7,8 @@ task :test do
 #    puts "#{key}: #{ENV[key]}"
 #  end
 
-  1.upto(400) do
-    sleep(0.01)
+  1.upto(1000) do
+    sleep(0.1)
     putc '.'
     $stdout.flush
   end
