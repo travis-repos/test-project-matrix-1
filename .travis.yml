@@ -10,4 +10,4 @@ branches:
 notifications:
   email: false
   webhooks: 
-    urls: http://www.postbin.org/13ztk0c
+    - http://www.postbin.org/13ztk0c
