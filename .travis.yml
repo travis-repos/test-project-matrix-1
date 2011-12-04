@@ -9,3 +9,4 @@ branches:
   only: master
 notifications:
   email: false
+  webhooks: http://www.postbin.org/13ztk0c
