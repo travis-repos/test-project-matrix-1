@@ -11,5 +11,3 @@ notifications:
   email: false
   webhooks: 
     urls: http://www.postbin.org/13ztk0c
-    on_success: always
-    on_failure: always
