@@ -8,7 +8,7 @@ task :test do
 #  end
 
   1.upto(100) do
-    sleep(0.1)
+    sleep(0.01)
     putc '.'
     $stdout.flush
   end
