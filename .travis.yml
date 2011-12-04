@@ -9,4 +9,7 @@ branches:
   only: master
 notifications:
   email: false
-  webhooks: http://www.postbin.org/13ztk0c
+  webhooks: 
+    urls: http://www.postbin.org/13ztk0c
+    on_success: always
+    on_failure: always
