@@ -5,6 +5,7 @@ rvm:
   - 1.9.3
   - rbx
   - jruby
+  - rbx
 matrix:
   exclude:
     - rvm: rbx
