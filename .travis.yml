@@ -11,7 +11,8 @@ matrix:
 branches:
   only: master
 notifications:
-  email: josh.kalderimis@gmail.com
+  email: 
+    - josh.kalderimis@gmail.com
   # webhooks: 
   #   - http://www.postbin.org/13ztk0c
   # campfire:
