@@ -2,17 +2,13 @@ script: 'ruby -e "p RUBY_VERSION"; true && rake test'
 rvm:
   - 1.8.7
   - 1.9.2
-  - 1.9.3
-  - ruby-head
-  - jruby
-  - rbx
 matrix:
   exclude:
     - rvm: rbx
 branches:
   only: master
 notifications:
-  email: josh.kalderimis@gmail.com
+  email: me@svenfuchs.com
   # webhooks: 
   #   - http://www.postbin.org/13ztk0c
   # campfire:
