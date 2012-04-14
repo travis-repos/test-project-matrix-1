@@ -9,7 +9,7 @@ task :test do
 
   1.upto(100) do
     sleep(0.01)
-    putc '.'
+    print 'OMG'
     $stdout.flush
   end
   # foo!
