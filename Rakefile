@@ -13,7 +13,7 @@ task :test do
     $stdout.flush
   end
   # foo!
-  exit 1
+  exit 0
 end
 
 task :default => :test
