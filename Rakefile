@@ -9,7 +9,7 @@ task :test do
 
   1.upto(100) do
     sleep(0.01)
-    print 'I<3TravisLOTS'
+    print 'MOAR NOTIFICATIONS...'
     $stdout.flush
   end
   # foo!
