@@ -9,7 +9,7 @@ task :test do
 
   1.upto(100) do
     sleep(0.01)
-    print 'WAT'
+    print 'WAT!'
     $stdout.flush
   end
   # foo!
