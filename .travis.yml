@@ -11,6 +11,6 @@ matrix:
 branches:
   only: master
 notifications:
-  email: contact@travis-ci.org
+  email: false
   webhooks: 
    - http://www.postbin.org/13ztk0c
