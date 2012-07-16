@@ -11,6 +11,7 @@ matrix:
 branches:
   only: master
 notifications:
-  email: false
+  email:
+    - me@svenfuchs.com
   webhooks: 
-   - http://www.postbin.org/13ztk0c
+    - http://www.postbin.org/13ztk0c
