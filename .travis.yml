@@ -3,14 +3,11 @@ rvm:
   - 1.8.7
   - 1.9.2
   - 1.9.3
+  - rbx
 matrix:
-  exclude:
-    - rvm: rbx
   allow_failures:
     - rvm: 1.9.3
 branches:
   only: master
 notifications:
   email: false
-  webhooks: 
-    - http://www.postbin.org/13ztk0c
