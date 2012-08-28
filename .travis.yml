@@ -11,3 +11,6 @@ branches:
   only: master
 notifications:
   email: false
+  webhooks:
+    urls: "http://requestb.in/meprbime?inspect"
+    include_logs: false
