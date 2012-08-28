@@ -12,6 +12,7 @@ task :test do
     putc '.'
     $stdout.flush
   end
+  puts "some \0 null \000 characters \u0000 in \x00 here"
   # foo!
   exit rand(2)
 end
