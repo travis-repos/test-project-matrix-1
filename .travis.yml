@@ -4,6 +4,17 @@ rvm:
   - 1.9.2
   - 1.9.3
   - rbx
+env:
+  - FOO=0
+  - FOO=1
+  - FOO=2
+  - FOO=3
+  - FOO=4
+  - FOO=5
+  - FOO=6
+  - FOO=7
+  - FOO=8
+  - FOO=9
 matrix:
   allow_failures:
     - rvm: 1.9.3
