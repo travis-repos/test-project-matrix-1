@@ -10,7 +10,7 @@ matrix:
 branches:
   only: master
 notifications:
-  email: false
+  email: me@svenfuchs.com
   webhooks:
     urls: 
       - "http://requestb.in/meprbime"
