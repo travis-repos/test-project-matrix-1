@@ -1,4 +1,6 @@
 script: 'ruby -e "p RUBY_VERSION"; true && rake test'
+after_script:
+  - 'echo $TRAVIS_JOB_ID'
 rvm:
   - 1.8.7
   - 1.9.2
@@ -12,6 +14,6 @@ branches:
 notifications:
   email: me@svenfuchs.com
   webhooks:
-    urls: 
+    urls:
       - "http://requestb.in/meprbime"
     include_logs: false
