@@ -15,7 +15,6 @@ task :test do
   puts "some \0 null \000 characters \u0000 in \x00 here"
   puts "some non-utf-8 bytes here \xE2 \xC3 here"
   # foo!
-  exit rand(2)
 end
 
 task :default => :test
