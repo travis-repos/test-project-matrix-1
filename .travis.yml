@@ -2,15 +2,21 @@ script: 'ruby -e "p RUBY_VERSION"; true && rake test'
 after_script:
   - 'echo $TRAVIS_JOB_ID'
 rvm:
-  - 1.8.7
-  - 1.9.2
-  - 1.9.3
+  #- 1.8.7
+  #- 1.9.2
+  #- 1.9.3
   - 2.0.0
+
 matrix:
   allow_failures:
     - rvm: 1.9.3
+
+before_script:
+  - rvm list
+
 branches:
   only: master
+
 notifications:
   email: false
   webhooks:
