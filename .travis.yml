@@ -1,11 +1,9 @@
-script: 'ruby -e "p RUBY_VERSION"; true && rake test'
-after_script:
-  - 'echo $TRAVIS_JOB_ID'
 rvm:
   #- 1.8.7
   #- 1.9.2
   - 1.9.3
   - 2.0.0
+  - rbx-19mode
 
 matrix:
   allow_failures:
@@ -13,6 +11,11 @@ matrix:
 
 before_script:
   - rvm list
+
+script: 'ruby -e "p RUBY_VERSION"; true && rake test'
+
+after_script:
+  - 'echo $TRAVIS_JOB_ID'
 
 branches:
   only: master
