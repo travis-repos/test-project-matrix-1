@@ -5,9 +5,17 @@ rvm:
   - 2.0.0
   - rbx-19mode
 
+env:
+  global:
+    - "USERNAME: drogus"
+  matrix:
+    - "FOO=bar"
+    - "BAR=baz"
+
 matrix:
   allow_failures:
     - rvm: 1.9.3
+    - "FOO=bar"
 
 before_script:
   - rvm list
