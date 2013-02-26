@@ -6,10 +6,8 @@ rvm:
   - rbx-19mode
 
 env:
-  global:
-    - "USERNAME: drogus"
   matrix:
-    - "FOO=bar"
+    - secure: "Fr8PIJeUV4pPhDJo/8IRbkV9nXQcmxJ7O0epNdR2/n4TsyhXOClLKtiK0yL/\ny8MQhtO16Ey70nvvoNq8w1qvjX6BsQZ1EXCIh4qdKv9xcWEJTI7OsoCYnAPo\ncSUT/kfS/JpRb7A1KvI0IJxo5jwImPm439afD7AjBcFeyt9p6QQ="
     - "BAR=baz"
 
 matrix:
