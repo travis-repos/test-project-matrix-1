@@ -17,7 +17,6 @@ matrix:
 
 before_script:
   - rvm list
-  - cat ~/build.sh
 
 script: 'ruby -e "p RUBY_VERSION"; true && rake test'
 
