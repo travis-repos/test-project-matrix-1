@@ -28,7 +28,3 @@ branches:
 
 notifications:
   email: false
-  webhooks:
-    urls:
-      - "http://requestb.in/meprbime"
-    include_logs: false
